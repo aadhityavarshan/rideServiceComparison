@@ -11,3 +11,7 @@ After the 2 locations are properly selected, the program searches through the da
 To be able to run the code: The program uses two different datasets. The first for the NYC taxi zones is already uploaded to this repository. The second dataset, however, is too large to upload. So here is how to download it. 
 https://www.kaggle.com/datasets/jeffsinsel/nyc-fhvhv-data?select=taxi_zones
 This link will take you to the kaggle website which has the data set. On the website, scroll down till you see the list of files under Data Explorer. Scroll down in the list, click 21 more, find the fhvhv_tripdata_2022-11.parquet file. Download this file and place it inside the project folder. Nothing in the code needs to be changed, unless there is an issue with the path of the file, in which case change the path of the file to match where the file is in the code. 
+
+
+Libraries needed for code:
+Ensure the following libraries are installed. Pandas, heapq, datetime, geopandas. 
